@@ -1,5 +1,7 @@
 let root = document.getElementById("root");
+let div1 = document.getElementById("div1");
 let btnPrint = document.getElementById("btnPrint");
+let btnDel = document.getElementById("btnDel");
 printList = [];
 let text = document.createElement("p");
 list = ["går", "hälsade", "jag", "visste", "om", "senare", "alltid", "när", "stan", "ko", "såg", "i", "sällan", "fes", "ramla"];
@@ -21,5 +23,9 @@ function add() {
 }
 btnPrint.addEventListener("click", function () {
   text.innerText = printList.join(" ");
-  root.append(text);
+  div1.append(text);
+});
+
+btnDel.addEventListener("click", () => {
+  div1.innerText = "";
 });

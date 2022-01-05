@@ -1,0 +1,30 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#btnPrint {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+}
+#div1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#btnDel {
+  position: relative;
+  background-color: red;
+  color: white;
+  left: 0px;
+}
